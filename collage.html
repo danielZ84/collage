@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo collage </title>
+
+    <style>
+     
+       body{
+        background-color: black;
+       }
+      .top h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: whitesmoke;
+      }
+      .middle{
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 20%;
+
+      }
+
+      .navbar{
+        display: block;
+        
+      }
+      .navbar li {
+        display: inline-block;
+        font-size: 20px;
+        color: whitesmoke;
+      }
+      
+      .navbar li a{
+        padding: 30px 20px;
+        margin-left: 10px;
+        color: antiquewhite;
+        
+      }
+      
+      
+      .right{
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        
+      }
+
+      .right img{
+         width: 10%;
+         height: 10%;
+         margin-top: 15px;
+         margin-left: 1120px;
+         
+    }
+    .container{
+      display:grid;
+      grid-template-columns: repeat(2,1fr);
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      grid-gap: 20px 20px ;
+      margin: 70px auto;
+      background-color: black;
+    }
+
+    img{
+      width: 70%;
+      border: 4px solid white;
+    }
+    .grid2 img{
+      margin-left: 30%;
+      margin-top:0px;
+    }
+
+    .grid4{
+      margin-left: 30px;
+      margin-top:0px;
+     
+      
+    }
+    </style>
+    
+
+  </head>
+ 
+<body>
+    <header>
+      <div class="top">
+         <h1>Photosen</h1>
+      </div>
+    </header>
+
+    <div class="middle">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+        
+    </div>
+    
+    <div class="right">
+       <img src="https://t4.ftcdn.net/jpg/03/92/71/99/360_F_392719944_L0LYv3e7QozB2tsj3CfUN0HPC8eZQOWb.jpg" alt="">
+    </div>
+    <div class="container">
+       
+      <div class="grid2"> 
+        <img src="https://cdn.naturettl.com/wp-content/uploads/2019/06/27085016/black-white-wildlife-photography-2-900x600.jpg" alt="">
+       
+        <img src="https://images.squarespace-cdn.com/content/v1/538a3874e4b0ab1541d204ad/1489631650873-L7AG4NM6AN2TPDRTKEC6/image-asset.jpeg" alt="">
+       
+        <img src="https://larsgesingfineart.com/cdn/shop/products/kauai-art-kapaa-sunrise-1_1200x801.jpg?v=1678976842" alt="">
+      </div>
+
+       <div class="grid4"> 
+        <img src="https://photographylife.com/wp-content/uploads/2014/10/Verm-lone-pine-Rogers-Lake-10701.jpg" alt="">
+       
+        <img src="https://media.photographycourse.net/wp-content/uploads/2022/04/08152255/using-zone-system-for-bw-photos.jpg" alt="">
+       
+        <img src="https://martinvorel.com/wp-content/uploads/2023/03/obrazek.png" alt="">
+      </div>
+
+    </div>
+
+</body>
+</html>
